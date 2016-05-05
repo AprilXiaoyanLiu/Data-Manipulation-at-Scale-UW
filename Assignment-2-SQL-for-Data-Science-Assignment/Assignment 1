@@ -1,1 +1,4 @@
-
+# Problem 1: Inspecting the Reuters Dataset and Basic Relational Algebra
+'''(a) select: Write a query that is equivalent to the following relational algebra expression.
+σdocid=10398_txt_earn(frequency)'''
+select σdocid from frequency where σdocid = 10398_txt_earn
